@@ -1,5 +1,7 @@
 package joca;
 
+import joca.Servers.logging;
+
 public class Request {
 
     private String method_and_mapping;
@@ -12,7 +14,7 @@ public class Request {
     private String cookies;
     public Request(byte[] b){
         s=new String(b);
-        Main.logfine(s);
+        logging.logfine(s);
         build();
 
     }
@@ -51,7 +53,7 @@ public class Request {
         try{
             int begin=s.indexOf("Cookie: ")+8;
             int end=s.indexOf("\n",begin);
-            Main.logimportant("found cookies "+begin+" end: "+end);
+            logging.logimportant("found cookies "+begin+" end: "+end);
             if(end>begin && begin>8) {
                 cookies = s.substring(begin, end);
             }
@@ -95,7 +97,7 @@ public class Request {
             ret=ret.replace("+"," ");
 
 
-            Main.logimportant("ovo je parametar " + ret);
+            logging.logimportant("ovo je parametar " + ret);
 
             return ret;
 
@@ -123,7 +125,7 @@ public class Request {
 
             return cookies.substring(begin, end);
         }catch (Exception ee){
-            Main.logerror("error kod cookies-a\n"+ee);
+            logging.logerror("error kod cookies-a\n"+ee);
         }
 
         return null;

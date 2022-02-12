@@ -136,9 +136,9 @@ public class Server implements Runnable{
         }
 
         for(int i=0;i<replacement.length();i++){
-            Main.logfine(replacement.get(i).mupping);
+            logging.logfine(replacement.get(i).mupping);
         }
-        Main.logfine(String.valueOf(replacement.hashCode()));
+        logging.logfine(String.valueOf(replacement.hashCode()));
         mapping.get(0).changeinto(replacement);
 
 

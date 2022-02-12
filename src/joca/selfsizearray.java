@@ -49,4 +49,7 @@ public class selfsizearray<T> {
             return niz;
         }
 
+
+
+
 }
