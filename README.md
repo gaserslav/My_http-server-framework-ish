@@ -1,8 +1,8 @@
 # My_http-server-framework-ish
-http server written in java
+##http server written in java
 This is simple http server/framework~ish
 
-Q: how do i use it ?
+###Q: how do i use it ?
 
 you see "out/artifacts/JocaWeb_jar/JocaWeb.jar" ?
 add it in your project and you will have access to object 'Server' in 
@@ -44,7 +44,7 @@ new Thread(s).start();
 //this way as a thread
 '
 
-Q: you said its framework~ish what can it do
+###Q: you said its framework~ish what can it do
 
 
 you can add extra mapping over "channel" objects 
