@@ -14,13 +14,12 @@ import joca.Servers.*;
 
 when you construct object server 
 
-`
+>
 //defolt is 8080
 Server server=new Server();
 
 Server server=new Server(8081);
 
-`
 
 when Server object is created program will generate (if it doenst exist) "public" folder in your project ,what ever you put inside will be "online" but you first need to restart program unless you use 'LessOptimisedServer`
 
