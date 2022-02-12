@@ -29,7 +29,7 @@ Server server=new LessOptimisedServer();
   //first one is port (defolt is 8080) and refreshrate(defolt is 10000)
   Server server2=new LessOptimisedServer(8080,100);
 ```
-so with pure Server u can edit files after initializing object but YOU CAN NOT ADD NEW ONES (if you do program wont register them) while with lessOptimisedServer you can, just you need to wait Server to refresh himself
+so with pure Server u can edit files after initializing object but YOU CAN NOT ADD NEW ONES (if you do program wont register them) while with lessOptimisedServer you can, just you need to wait Server to refresh itself
 
 
 Server starts on function run() it has Runnable so you can make it into Thread
@@ -55,7 +55,8 @@ channel can=new channel("\",new new what_should_i_do() {
             return "<div> hello world</div>".getBytes();}
             });
 ```
-as you can see cannel object has 2 parametars one is mapping(String) and what_should_i_do interface in which you have function with same name that you specify logic what that function returns thats Response and via Request object you access Request
+as you can see cannel object has 2 parametars one is mapping(String) and what_should_i_do interface in which you have function with same name that you specify logic.
+What that function returns thats Response and via Request object you access Request
 
 after you initialized channel you can add it to Server
 
