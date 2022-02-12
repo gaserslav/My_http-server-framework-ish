@@ -65,7 +65,7 @@ server.addChannel(channel);
 `
 
 
-![pic](https://ibb.co/x6bTNGn)
+![pic](https://i.ibb.co/vkWnSmN/Bez-naslova.png)
 
 
 
