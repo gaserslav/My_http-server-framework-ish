@@ -2,6 +2,13 @@
 ##http server written in java
 This is simple http server/framework~ish
 
+
+
+# DONT USE IT WITH VIDEOS,IT WILL SEND ALL BYTES AT ONCE 
+
+
+
+
 ### Q: how do i use it ?
 
 you see "out/artifacts/JocaWeb_jar/JocaWeb.jar" ?
@@ -67,7 +74,6 @@ server.addChannel(channel);
 
 ![pic](https://i.ibb.co/vkWnSmN/Bez-naslova.png)
 
-
-<div style="color:blue">some text</div>
+# I DO NOT RECOMENT USING IT IN SERIUS PROJECTS 
 
 
