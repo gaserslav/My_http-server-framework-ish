@@ -56,7 +56,7 @@ new Thread(s).start();
 you can add extra mapping over "channel" objects 
 
 ```java
-channel can=new channel("\",new new what_should_i_do() {
+channel can=new channel("/",new new what_should_i_do() {
             @Override
             public byte[] what_should_i_do(Request request) {
             return "<div> hello world</div>".getBytes();}
