@@ -14,7 +14,7 @@ import joca.Servers.*;
 
 when you construct object server 
 
-```
+```java
 //defolt is 8080
 Server server=new Server();
 
@@ -23,7 +23,7 @@ Server server=new Server(8081);
 
 when Server object is created program will generate (if it doenst exist) "public" folder in your project ,what ever you put inside will be "online" but you first need to restart program unless you use 'LessOptimisedServer`
 
-```
+```java
 Server server=new LessOptimisedServer();
   
   //first one is port (defolt is 8080) and refreshrate(defolt is 10000)
@@ -34,7 +34,7 @@ so with pure Server u can edit files after initializing object but YOU CAN NOT A
 
 Server starts on function run() it has Runnable so you can make it into Thread
 
-```
+```java
 Server s=new Server(8080);
 //this way 
 s.run();
@@ -48,7 +48,7 @@ new Thread(s).start();
 
 you can add extra mapping over "channel" objects 
 
-```
+```java
 channel can=new channel("\",new new what_should_i_do() {
             @Override
             public byte[] what_should_i_do(Request request) {
