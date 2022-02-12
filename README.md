@@ -68,6 +68,6 @@ server.addChannel(channel);
 ![pic](https://i.ibb.co/vkWnSmN/Bez-naslova.png)
 
 
-<div style="color:blue">some *blue* text</div>.
+<div style="color:blue">some text</div>
 
 
