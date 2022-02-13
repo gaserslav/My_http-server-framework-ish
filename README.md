@@ -74,6 +74,6 @@ server.addChannel(channel);
 
 ![pic](https://i.ibb.co/vkWnSmN/Bez-naslova.png)
 
-# I DO NOT RECOMENT USING IT IN SERIUS PROJECTS 
+# I DO NOT RECOMENT USING IT IN SERIOUS PROJECTS 
 
 
